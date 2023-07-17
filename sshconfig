@@ -1,0 +1,13 @@
+# For personal github account
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  IdentityFile ~/.ssh/id_rsa
+
+# For new bumpercoins account, new key. 
+# Include the custom hostname during clone
+# Ex. for FixedPointJS repo, do git clone git@github.com-bumpercoins:bumpercoins/FixedPointJS.git
+Host github.com-bumpercoins
+  Hostname ssh.github.com
+  Port 443
+  IdentityFile ~/.ssh/second_key
